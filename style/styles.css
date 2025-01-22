@@ -1,0 +1,142 @@
+.fira-sans-normal {
+  font-family: "Fira Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.fira-sans-normal {
+  background-color: rgba(245, 245, 245, 1);
+}
+/* nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 160px;
+}
+.nav-btn {
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  color: #006a50;
+}
+
+/* banner design */
+.banner {
+  display: flex;
+  margin: 20px 160px 80px 160px;
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+
+.banner-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+}
+
+.banner-content {
+  text-align: left;
+  padding: 27px 0px;
+}
+.banner-description {
+  margin-top: 16px;
+  color: rgba(14, 14, 14, 1);
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.inline {
+  text-align: inline;
+}
+.banner-btn {
+  background-color: rgba(0, 106, 80, 1);
+  font-size: 18px;
+  color: #ffffff;
+  padding: 34px;
+  border-radius: 8px;
+}
+
+/* pillars of bd section */
+.bd-skill {
+  margin: 0px 160px 80px 160px;
+}
+.bd-skill-title {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+.pillars {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: rgba(14, 14, 14, 0.15);
+}
+.bd-skill-container {
+  display: flex;
+  gap: 24px;
+}
+
+/* The vision of future */
+.bd-future-title {
+  font-size: 40px;
+  font-weight: 800;
+}
+.bd-future {
+  margin: 80px 160px;
+}
+.bd-future-box-container {
+  display: flex;
+  gap: 24px;
+}
+.future-box-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+  border-radius: 16px;
+}
+.future-box-2 {
+  background-color: rgba(198, 228, 214, 1);
+  padding: 32px;
+  border-radius: 16px;
+}
+.future-box-3 {
+  background-color: rgba(247, 235, 207, 1);
+  padding: 24px;
+  border-radius: 16px;
+}
+.skill-title {
+  font-size: 20;
+}
+.future-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.future-btn-1 {
+  background-color: #5490f5;
+  padding: 9.5px 20px;
+  border-radius: 8px;
+  border: none;
+}
+.future-btn-2 {
+  background-color: #09a15c;
+  padding: 9.5px 20px;
+  border-radius: 8px;
+  border: none;
+}
+.future-btn-3 {
+  background-color: #ffc239;
+  padding: 9.5px 20px;
+  border-radius: 8px;
+  border: none;
+}
+/* optional */
+.extra {
+  background-color: #ffffff;
+  margin-top: 32px;
+  padding: 48px 24px;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 0 -23;
+}
