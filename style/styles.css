@@ -58,6 +58,7 @@ nav {
   color: #ffffff;
   padding: 34px;
   border-radius: 8px;
+  border: none;
 }
 
 /* pillars of bd section */
@@ -232,6 +233,7 @@ nav {
   font-weight: bold;
   gap: 24px;
   background-color: #ffffff;
+  border: none;
 }
 .donate-btn-h2 {
   width: 252px;
@@ -242,6 +244,7 @@ nav {
   font-weight: bold;
   gap: 24px;
   background-color: #c6e4d6;
+  border: none;
 }
 .donate-btn-h3 {
   width: 243px;
@@ -252,6 +255,7 @@ nav {
   font-weight: bold;
   gap: 24px;
   background-color: #ffffff;
+  border: none;
 }
 .donate-btn-h4 {
   width: 264px;
@@ -262,6 +266,7 @@ nav {
   font-weight: bold;
   gap: 24px;
   background-color: #ffffff;
+  border: none;
 }
 .donate-btn {
   display: flex;
@@ -288,4 +293,55 @@ nav {
   font-size: 18px;
   color: #ffffff;
   margin-top: 32px;
+}
+
+/* Subscriber Section */
+.subscriber {
+  margin: 0px 160px 80px 160px;
+  /* text-align: center; */
+}
+.subscriber-container {
+  text-align: center;
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+
+.Subscriber-title {
+  font-size: 40px;
+}
+.subscriber-info {
+  text-align: center;
+  font-size: 16;
+  color: rgba(14, 14, 14, 0.7);
+  height: 48px;
+  width: 622px;
+}
+.email-subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  width: 750px;
+  height: 56px;
+}
+.email {
+  height: 55px;
+  width: 150px;
+  padding: 34px;
+  font-size: 16px;
+}
+.subscribe-btn {
+  width: 150px;
+  height: 56px;
+  padding: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #006a50;
+  border-radius: 10pxS;
+}
+
+.p-text {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
 }
