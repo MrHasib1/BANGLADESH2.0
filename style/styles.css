@@ -227,7 +227,7 @@ nav {
 .donate-btn-h1 {
   width: 240px;
   height: 128px;
-  padding: 40px;
+  padding: 30px;
   border-radius: 16px;
   font-size: 40px;
   font-weight: bold;
@@ -249,7 +249,7 @@ nav {
 .donate-btn-h3 {
   width: 243px;
   height: 128px;
-  padding: 40px;
+  padding: 30px;
   border-radius: 16px;
   font-size: 40px;
   font-weight: bold;
@@ -260,7 +260,7 @@ nav {
 .donate-btn-h4 {
   width: 264px;
   height: 128px;
-  padding: 40px;
+  padding: 30px;
   border-radius: 16px;
   font-size: 40px;
   font-weight: bold;
@@ -314,34 +314,49 @@ nav {
   text-align: center;
   font-size: 16;
   color: rgba(14, 14, 14, 0.7);
-  height: 48px;
-  width: 622px;
 }
 .email-subscribe {
   display: flex;
   justify-content: center;
   gap: 0;
-  width: 750px;
-  height: 56px;
 }
 .email {
-  height: 55px;
-  width: 150px;
-  padding: 34px;
+  width: 600px;
+  padding: 15px;
   font-size: 16px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
 }
 .subscribe-btn {
   width: 150px;
   height: 56px;
-  padding: 24px;
+  padding: 10px;
   font-weight: 400;
   font-size: 18px;
   color: #ffffff;
   background-color: #006a50;
-  border-radius: 10pxS;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
 }
 
 .p-text {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
+}
+
+/* all button hovar */
+.news-btn:hover,
+.subscribe-btn:hover,
+.donate-btn-h1:hover,
+.donate-btn-h2:hover,
+.donate-btn-h3:hover,
+.donate-btn-h4:hover,
+.done-btn:hover,
+.future-btn-1:hover,
+.future-btn-2:hover,
+.future-btn-3:hover,
+.banner-btn:hover {
+  background-color: red;
 }
